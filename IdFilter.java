@@ -8,7 +8,7 @@ import java.util.Collection;
  */
 public class IdFilter {
   public static boolean containsTestAccount(Collection<Long> ids) {
-    return ids.contains(100) || ids.contains(101) || ids.contains(110);
+    return ids.contains(100L) || ids.contains(101) || ids.contains(110);
   }
 
   public static void filter(Collection<Long> ids) {
